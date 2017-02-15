@@ -1,0 +1,24 @@
+{
+  "name": "unittesting",
+  "version": "1.0.0",
+  "description": "unit testing with karma and jasmine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "karma",
+    "jasmine"
+  ],
+  "author": "susan rehl",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7"
+  }
+}
