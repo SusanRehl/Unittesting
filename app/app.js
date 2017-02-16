@@ -8,5 +8,5 @@
     $urlRouterProvider.otherwise("/");
   });
 
-  console.log("hello from app.js");
+
 })();
