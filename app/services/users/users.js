@@ -47,6 +47,14 @@
       return userList;
     };
 
+    // TEST 5 Defining findById to make our test pass.
+    Users.findById = function(id) {
+      // Returning a single user object as our test expects it to
+            return userList.find(function(user) {
+              return user.id === id;
+            });
+    };
+
     return Users;
-  });
-})();
+  });  // end factor
+})();  // end function
